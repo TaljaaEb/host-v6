@@ -1,0 +1,22 @@
+[project]
+name = "juice-shop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=4.2,<5.0",
+    "django-extensions>=4.1",
+    "pillow>=9.0.0",
+    "pyopenssl>=26.4.0",
+    "python-decouple>=3.6",
+    "stripe>=5.0.0",
+    "werkzeug>=3.1.9",
+]
+
+[project.scripts]
+juice-shop = "juice_shop:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
