@@ -4,4 +4,4 @@ stripe>=5.0.0
 Pillow>=9.0.0
 python-decouple>=3.6
 Werkzeug
-runserver_plus
+pyOpenSSL
